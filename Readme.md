@@ -9,4 +9,4 @@
 
 
 ## Click ('https://malankinam.github.io/KD_SLIDERS/')
- <img src="./screencapture-127-0-0-1-5500-2024-03-30-12_12_52 (1).png" title="css"  width="850px" height="550px"/>
+ <img src="https://malankinam.github.io/A_Ray_of_light/" title="css"  width="850px" height="550px"/>
