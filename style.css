@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+        font-family: "Commissioner", sans-serif;
+        font-size: 105px;
+        background: rgb(17, 17, 17);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 21%, rgba(121,9,28,1) 62%, rgba(230,237,238,1) 100%);
+}
+
+.effect, .text{
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        padding-top: 10px;
+        font-size: 105px;
+}
+
+.effect{
+        width: 105px;
+        height: 105px;
+        background-color: #000;
+        border-radius: 50%;
+        padding: 35px;
+        overflow: hidden;
+        animation: ef 3s ease-in-out infinite alternate;
+}
+
+.content{
+        color: #fff;
+        position: absolute;
+        left: 0;
+        width: max-content;
+        animation: ct 3s ease-in-out infinite alternate;
+}
+
+@keyframes ef{
+        from{
+             transform: translate(-100px ,0);
+        }
+        to{
+                transform: translate(250px ,0);
+        }
+}
+
+@keyframes ct{
+        from{
+                transform:translate(450px 0) ;
+        }
+        to{
+                transform: translate(-100px ,0);
+        }
+}
